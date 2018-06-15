@@ -1,6 +1,6 @@
 itemGroup.tardis=TARDIS Mod
 
-item.key.name=TARDIS Nyckel
+item.key.name=TARDIS Nyckeln
 item.pos_setter.name=Koordinat Datainloggare
 item.circuts.name=Exotronisk Krets
 item.sonic_screwdriver.name=Sonisk Skruvmejsel
@@ -22,7 +22,7 @@ item.artron_capacitor.name=Artron Kondensator
 item.sonic_pen.name=Sonisk Penna
 
 tile.tardis.name=TARDIS
-tile.time_rotor.name=Tidsrotor
+tile.time_rotor.name=Tidsrotorn
 tile.panel.name=Rundel
 tile.door.name=TARDIS Dörr
 tile.tardis_top.name=TARDIS
@@ -38,8 +38,8 @@ tile.electric_panel.name=Elektrisk Grännsnittspanel
 tile.megalos.name=Meglos
 tile.console.name=Konsol
 
-tardis.locked.true=TARDISen är låst!
-tardis.locked.false=TARDISen är upplåst!
+tardis.locked.true=TARDIS:en är låst!
+tardis.locked.false=TARDIS:en är upplåst!
 
 death.attack.dalek=Dödad av Dalek Strålvapen.
 
@@ -54,47 +54,47 @@ raygun.ammo=Ammunition kvar.
 raygun.ammo.none=Ingen Ammunition!
 
 tardis.none=Du äger inte en TARDIS.
-tardis.flying=TARDISen är i flygläge!
+tardis.flying=TARDIS:en är i flygläge!
 
-tardis.gui.protocol.force_field=Force Field Protocol
+tardis.gui.protocol.force_field=Kraftfält Protokoll
 
-tardis.console.land.true=TARDIS is set to land on the highest point available
-tardis.console.land.false=TARDIS is set to land on the lowest point available
+tardis.console.land.true=TARDIS:en är inställd att landa på den högsta punkten som är tillgänglig
+tardis.console.land.false=TARDIS:en är inställd att landa på den lägsta punkten som är tillgänglig
 
-tardis.direction.north=TARDIS is facing north
-tardis.direction.east=TARDIS is facing east
-tardis.direction.south=TARDIS is facing south
-tardis.direction.west=TARDIS is facing west
+tardis.direction.north=TARDIS:en står inför Norr
+tardis.direction.east=TARDIS:en står inför Öster
+tardis.direction.south=TARDIS:en står inför Söder
+tardis.direction.west=TARDIS:en står inför Väster
 
-tardis.missing=The outer plasmic shell cannot be found! Please land again.
+tardis.missing=Den yttre plasmaskölden kan inte hittas! Vänligen materialisera igen.
 
-config.category.dims=Dimensions
-config.dims=Blacklisted Dimensions
-config.setdim=Set a Dimension ID for the TARDIS?
-config.tDim=TARDIS Dimension
+config.category.dims=Dimensioner
+config.dims=Svartlistade Dimensioner
+config.setdim=Ange ett Dimensions-ID för TARDIS:en?
+config.tDim=TARDIS Dimensionen
 
-config.entity=Entities
-config.entity.allowed=Should this mod add Mobs?
+config.entity=Entitet
+config.entity.allowed=Ska denna mod lägga till Mobs?
 
-config.misc=Misc
-config.misc.givekey=Should give Player A TARDIS key when they join the world?
+config.misc=Diverse
+config.misc.givekey=Ska ge spelare en TARDIS-nyckel när de går med i världen?
 
-entity.launch_lever.name=Space - Time Throttle
-entity.x_valve.name=Space Control - X
-entity.y_valve.name=Space Control - Y
-entity.z_valve.name=Space Control - Z
-entity.dim_change.name=Dimensional Control
-entity.screen.name=Screen
-entity.rand_control.name=Control Randomizer
-entity.tardis_door.name=Door
+entity.launch_lever.name=Rumtids Trotteln
+entity.x_valve.name=Platskontroll - X
+entity.y_valve.name=Platskontroll - Y
+entity.z_valve.name=Platskontroll - Z
+entity.dim_change.name=Dimensionskontroll
+entity.screen.name=Skärm
+entity.rand_control.name=Kontroll Randomiserare
+entity.tardis_door.name=Dörr
 entity.stc_load.name=Waypoint Setter
-entity.stc_button.name=Waypoint Selector
-entity.control_flight.name=Real - World Flight Interface
-entity.fuel.name=Refueler
-entity.land_type.name=Landing Type Selector
-entity.direction_control.name=Directional Control
+entity.stc_button.name=Waypointväljare
+entity.control_flight.name=Flyglägesgränssnitt
+entity.fuel.name=Bränsletank
+entity.land_type.name=Landningstypväljare
+entity.direction_control.name=Riktningskontroll
 entity.tardis.name=TARDIS
-entity.tardis_fast_return.name=Fast Return
+entity.tardis_fast_return.name=Snabb Retur
 
-key.notwheretardis=THIS IS NOT WHERE THE TARDIS IS!
-key.console.location=Console at: 
+key.notwheretardis=HÄR FINNS INTE TARDIS:EN!
+key.console.location=Konsollen finns vid: 
