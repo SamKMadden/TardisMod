@@ -1,12 +1,12 @@
-itemGroup.tardis=TARDIS Mod
+itemGroup.tardis=TARDIS-Moddet
 
-item.key.name=TARDIS Nyckel
+item.key.name=TARDIS-Nyckel
 item.pos_setter.name=Koordinat Datainloggare
 item.circuts.name=Exotronisk Krets
 item.sonic_screwdriver.name=Sonisk Skruvmejsel
-item.gunstick.name=Dalek Vapen
+item.gunstick.name=Dalek-Vapen
 item.power_cell.name=Trionisk Energicell
-item.ray_gun.name=Dalek Strålvapen
+item.ray_gun.name=Dalek-Strålvapen
 item.void_specs.name=Tomrumsbrillor
 item.fob_watch.name=Gallifreyisk Fickur
 item.fez.name=Fez
@@ -15,9 +15,9 @@ item.umbrella_open.name=Soniskt Paraply
 item.umbrella_closed.name=Soniskt Paraply
 item.sonic_blaster.name=Sonisk Blästrare
 item.sonic_cane.name=Sonisk Käpp
-item.vortex_manip.name=Tidsvirvel Manipulator
+item.vortex_manip.name=Tidsvirvelsmanipulator
 item.fluid_link.name=Vätskelänkar
-item.demat_circut.name=Dematerialiseringskrets
+item.demat_circut.name=Dematerialisationskrets
 item.artron_capacitor.name=Artron Kondensator
 item.sonic_pen.name=Sonisk Penna
 
@@ -30,7 +30,7 @@ tile.light.name=Lampa
 tile.homing_beacon.name=Vägledare
 tile.chronodine_generator.name=Chronodyne Generator
 tile.grate.name=Galler
-tile.temporal_lab.name=Timlighets Laboratorium
+tile.temporal_lab.name=Timlighetslaboratorium
 tile.umbrella_stand.name=Paraplyställ
 tile.alembic.name=Retort
 tile.food_machine.name=Matmaskin
@@ -41,60 +41,59 @@ tile.console.name=Konsol
 tardis.locked.true=TARDISen är låst!
 tardis.locked.false=TARDISen är upplåst!
 
-death.attack.dalek=Dödad av Dalek Strålvapen.
+death.attack.dalek=Dödad av Dalek Strålvapen
 
 screw.recall=Återkallningsläge
 screw.transmat=Materiasändare
-screw.lamp=Fix-Läge
+screw.lamp=Fix-läge
 screwdriver.hallway=Rum Skapare - Hall
 screw.generic_room=Rum Skapare - Litet Rum
-screw.electric=Demontera Rund Panel
+screw.electric=Demontera Rundelspanel
 
 raygun.ammo=Ammunition kvar.
-raygun.ammo.none=Ingen Ammunition!
+raygun.ammo.none=Ingen ammunition!
 
-tardis.none=Du äger inte en TARDIS.
+tardis.none=Ni äger inte en TARDIS.
 tardis.flying=TARDISen är i flygläge!
 
-tardis.gui.protocol.force_field=Force Field Protocol
+tardis.gui.protocol.force_field=Kraftfältsprotokoll
 
-tardis.console.land.true=TARDIS is set to land on the highest point available
-tardis.console.land.false=TARDIS is set to land on the lowest point available
+tardis.console.land.true=TARDISen är inställd att landa på den högsta punkten tillgänglig.
+tardis.console.land.false=TARDISen är inställd att landa på den lägsta punkten tillgänglig.
 
-tardis.direction.north=TARDIS is facing north
-tardis.direction.east=TARDIS is facing east
-tardis.direction.south=TARDIS is facing south
-tardis.direction.west=TARDIS is facing west
+tardis.direction.north=TARDISen står inför norr.
+tardis.direction.east=TARDISen står inför öst.
+tardis.direction.south=TARDISen är vänd mot söder.
+tardis.direction.west=TARDISen står inför väst.
 
-tardis.missing=The outer plasmic shell cannot be found! Please land again.
+tardis.missing=Det yttre plasmaskalet kan inte hittas! Vänligen landa igen.
 
-config.category.dims=Dimensions
-config.dims=Blacklisted Dimensions
-config.setdim=Set a Dimension ID for the TARDIS?
-config.tDim=TARDIS Dimension
+config.category.dims=Dimensioner
+config.dims=Svartlistade Dimensioner
+config.setdim=Ange ett Dimensions-ID för TARDISen?
+config.tDim=TARDIS-Dimensionen
 
-config.entity=Entities
-config.entity.allowed=Should this mod add Mobs?
+config.entity=Entitet
+config.entity.allowed=Bör vi lägga till mobs?
+config.misc=Diverse
+config.misc.givekey=Ska ge spelare en TARDIS-nyckel när de går med i världen?
 
-config.misc=Misc
-config.misc.givekey=Should give Player A TARDIS key when they join the world?
-
-entity.launch_lever.name=Space - Time Throttle
-entity.x_valve.name=Space Control - X
-entity.y_valve.name=Space Control - Y
-entity.z_valve.name=Space Control - Z
-entity.dim_change.name=Dimensional Control
-entity.screen.name=Screen
-entity.rand_control.name=Control Randomizer
-entity.tardis_door.name=Door
+entity.launch_lever.name=Rumtidsreglaget
+entity.x_valve.name=Tidrumskontroll - X
+entity.y_valve.name=Tidrumskontroll - Y
+entity.z_valve.name=Tidrumskontroll - Z
+entity.dim_change.name=Dimensionskontroll
+entity.screen.name=Skärm
+entity.rand_control.name=Kontrollrandomiserare
+entity.tardis_door.name=Dörr
 entity.stc_load.name=Waypoint Setter
-entity.stc_button.name=Waypoint Selector
-entity.control_flight.name=Real - World Flight Interface
-entity.fuel.name=Refueler
-entity.land_type.name=Landing Type Selector
-entity.direction_control.name=Directional Control
+entity.stc_button.name=Waypointväljaren
+entity.control_flight.name=Flyglägeskontroll
+entity.fuel.name=Påfyllare
+entity.land_type.name=Landningstypväljare
+entity.direction_control.name=Riktningskontroll
 entity.tardis.name=TARDIS
-entity.tardis_fast_return.name=Fast Return
+entity.tardis_fast_return.name=Snabb Retur
 
-key.notwheretardis=THIS IS NOT WHERE THE TARDIS IS!
-key.console.location=Console at: 
+key.notwheretardis=DETTA ÄR INTE VAR TARDISEN BEFINNER SIG!
+key.console.location=Konsollen är vid:
